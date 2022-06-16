@@ -175,4 +175,9 @@ img {
     display: flex;
     margin-block-start: 2em;
   }
+
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
